@@ -1,0 +1,148 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1F5F8;
+}
+.container {
+  text-align: center;
+  width: 550px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px 20px 10px 20px;
+  position: absolute;
+  top: 150px;
+}
+.container h3{
+  font-size: 28px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 700;
+  color: #063251;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form input {
+  width: 470px;
+  padding: 4px 5px !important;;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border: none;
+  background: #F1F5F8;
+  outline: none;
+  font-size: 16px !important;
+  color: rgb(97,125,152);
+}
+::placeholder {
+color: rgb(97,125,152,0.3);
+}
+.form button{
+  padding: 5px 10px;
+  font-size: 17px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border: none;
+  outline: none;
+  background-color: #A5D5F8;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.form button:hover{
+  background-color: #49A6E9;
+  color: #fff;
+}
+.alertMes-1 {
+  font-size: 11px;
+  font-family: Roboto, sans-serif;
+  background-color: rgba(230,107,107,0.2);
+  padding: 3px 0px;
+  border-radius: 5px;
+  width: 100%;
+  display: inline-block;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  visibility: hidden;
+}
+.alertMes-2 {
+  font-size: 11px;
+  font-family: Roboto, sans-serif;
+  background-color: rgba(134,230,117,0.3);
+  padding: 3px 0px;
+  border-radius: 5px;
+  width: 100%;
+  display: inline-block;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 8px 5px;
+  margin-top: 20px;
+  transition: 0.5s;
+  letter-spacing: 1.5px;
+}
+.item:hover {
+  background-color: #F1F5F8;
+}
+.fa-pen-to-square {
+  color: rgba(134,230,117);
+  padding-right: 5px;
+  cursor: pointer;
+  font-size: 14px !important;
+  transition: 0.5s;
+}
+.fa-pen-to-square:hover{
+  color: RGB(37, 187, 50);
+}
+
+.fa-trash {
+  color: rgba(230,107,107);
+  cursor: pointer;
+  font-size: 14px !important;
+  transition: 0.5s;
+}
+.fa-trash:hover {
+  color:RGB(187, 37, 37);
+}
+.editBtn,.deleteBtn  {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.editBtn {
+  visibility: hidden;
+}
+.deleteBtn {
+  margin-left: 4px;
+}
+
+.clr-button{
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  color:rgba(230,107,107,0.8);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  visibility: hidden;
+}
+.items-menu {
+  margin-bottom: 20px;
+}
+.clr-button:hover {
+color:RGB(187, 37, 37);
+}

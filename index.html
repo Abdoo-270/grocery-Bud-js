@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Grocery Bud Project</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/7c505e28f4.js" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <p class="alertMes-1" id="alertMes-1">Please Enter Value</p>
+    <!-- toggle with alertMes-2 and change the text inside
+    <p class="alertMes-2">Item Added To The List</p>
+    -->
+    <h3>Grocery Bud</h3>
+    <form class="form" id="myForm">
+      <input type="text" id="user-input" placeholder="e.g. eggs" >
+      <button type="submit" name="button" onclick="subFunction()" id="subBtn">Submit</button>
+    </form>
+
+    <div class="items-menu" id="menu-items">
+<!--
+      <article class="item">
+        <p>Eggs</p>
+        <div class="icons">
+      <button class = "editBtn">
+        <i class="fa-solid fa-pen-to-square"></i>
+      </button>
+      <button class = "deleteBtn">
+        <i class="fa-solid fa-trash" ></i>
+      </button>
+        </div>
+      </article>
+-->
+    </div>
+    <button type="button" class="clr-button" onclick="clearList()" id="clr-button">Clear Items</button>
+
+  </div>
+
+  <script src="app.js">
+
+  </script>
+</body>
+
+</html>
